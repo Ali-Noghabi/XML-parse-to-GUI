@@ -1,0 +1,54 @@
+<JFrame
+        title="Xml parser"
+        visibility="true"
+        default_close_operation="EXIT_ON_CLOSE"
+        width="500"
+        height="300"
+        layout="BorderLayout">
+
+    <JPanel
+            layout_gravity="north"
+            background="black"
+            layout="FlowLayout"
+            alignment="left">
+
+        <JButton text="File"/>
+        <JButton text="Edit"/>
+        <JButton text="View"/>
+        <JButton text="Navigate"/>
+        <JButton text="Code"/>
+
+    </JPanel>
+
+    <JPanel
+            layout_gravity="center"
+            background="gray"
+            layout="GridLayout"
+            rows="4"
+            cols="2">
+
+        <JLabel text="name : "/>
+        <JTextField/>
+        <JLabel text="age : "/>
+        <JTextField/>
+        <JLabel text="height : "/>
+        <JTextField/>
+        <JLabel text="weight : "/>
+        <JTextField/>
+    </JPanel>
+
+    <JPanel
+            layout_gravity="west"
+            background="gray"
+            layout="GridLayout"
+            rows="3"
+            cols="1">
+
+        <JCheckBox
+                text="Single"
+                selected="true"/>
+
+        <JCheckBox text="Old"/>
+        <JCheckBox text="Owner"/>
+    </JPanel>
+</JFrame>

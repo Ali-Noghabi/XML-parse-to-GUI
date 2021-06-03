@@ -1,0 +1,10 @@
+<JFrame title="Xml parser" visibility="true" width="800" height="300" layout="BorderLayout">
+    <JPanel layout_gravity="south" background="pink" layout="FlowLayout" alignment="left">
+        <JButton text="File"/>
+        <JButton text="File2"/>
+    </JPanel>
+    <JPanel layout_gravity="south" background="red" layout="FlowLayout" alignment="left">
+        <JButton text="File3"/>
+        <JButton text="File4"/>
+    </JPanel>
+</JFrame>
